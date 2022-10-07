@@ -15,10 +15,19 @@ public class JSnack1 {
 		int numero = 0;
 		int somma = 0;
 
-		for (int i = 0; i < 5; i++) {
+//		for (int i = 0; i < 5; i++) {
+//			System.out.println("Inserisci un numero");
+//			numero = scan.nextInt();
+//			somma = somma + numero;
+//		}
+
+		int count = 0;
+
+		while (count < 5) {
 			System.out.println("Inserisci un numero");
 			numero = scan.nextInt();
 			somma = somma + numero;
+			count = count + 1;
 		}
 
 		System.out.println(somma);
